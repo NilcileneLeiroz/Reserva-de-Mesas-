@@ -3,6 +3,7 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reservas de Mesas</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -10,18 +11,15 @@
     <div class="container">
         <img src="logo.png" alt="Logo" class="logo">
         <h1>Reservas de Mesas:</h1>
-        <form id="reservaForm">
-            <input type="text" placeholder="Nome completo" id="nome" required>
-            <input type="text" placeholder="Telefone" id="telefone" required>
-            <input type="text" placeholder="Cidade" id="cidade" required>
-            <input type="number" placeholder="Nº de pessoas" id="quantidade" required>
-            <select id="area" required>
-                <option value="">Área Interna</option>
-                <option value="interna">Área Interna</option>
-                <option value="externa">Área Externa</option>
-            </select>
-            <button type="submit">Reservar</button>
-        </form>
+        <input type="text" placeholder="Nome completo">
+        <input type="text" placeholder="Telefone">
+        <input type="text" placeholder="Cidade">
+        <input type="number" placeholder="Nº de pessoas">
+        <select>
+            <option>Área Interna</option>
+            <option>Área Externa</option>
+        </select>
+        <button>Reservar</button>
     </div>
     <script src="script.js"></script>
 </body>

@@ -9,24 +9,19 @@
 <body>
     <div class="container">
         <img src="logo.png" alt="Logo" class="logo">
-        <h2>Reservas de Mesas:</h2>
+        <h1>Reservas de Mesas:</h1>
         <form id="reservaForm">
-            <input type="text" id="nome" placeholder="Nome completo" required>
-            <input type="text" id="telefone" placeholder="Telefone" required>
-            <input type="text" id="cidade" placeholder="Cidade" required>
-            <input type="number" id="pessoas" placeholder="Nº de pessoas" required>
-            <select id="area">
+            <input type="text" placeholder="Nome completo" id="nome" required>
+            <input type="text" placeholder="Telefone" id="telefone" required>
+            <input type="text" placeholder="Cidade" id="cidade" required>
+            <input type="number" placeholder="Nº de pessoas" id="quantidade" required>
+            <select id="area" required>
+                <option value="">Área Interna</option>
                 <option value="interna">Área Interna</option>
                 <option value="externa">Área Externa</option>
             </select>
             <button type="submit">Reservar</button>
         </form>
-        <div id="listaEspera"></div>
-        <div id="sala06">
-            <h3>Sala 06 (Mesa Única)</h3>
-            <button onclick="liberarMesa()">Liberar Mesa</button>
-            <p id="statusMesa">Mesa disponível</p>
-        </div>
     </div>
     <script src="script.js"></script>
 </body>

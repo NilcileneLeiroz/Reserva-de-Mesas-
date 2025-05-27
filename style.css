@@ -1,34 +1,43 @@
+
 body {
-  font-family: Arial, sans-serif;
-  background-color: #83484B;
-  color: white;
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
+    background-color: #83484B;
+    font-family: Arial, sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
-header {
-  background: #333;
-  padding: 10px;
-  text-align: center;
+
+.container {
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
 }
-#logo {
-  height: 50px;
+
+.logo {
+    width: 120px;
+    margin-bottom: 10px;
 }
-main {
-  padding: 20px;
+
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
 }
-form input, form select, form button {
-  display: block;
-  margin: 10px 0;
-  padding: 10px;
-  width: 100%;
-  max-width: 400px;
-}
+
 button {
-  background: #eee;
-  color: #333;
-  border: none;
-  cursor: pointer;
+    background-color: white;
+    color: #83484B;
+    font-weight: bold;
+    cursor: pointer;
 }
-button:hover {
-  background: #ddd;
+
+#listaEspera, #sala06 {
+    margin-top: 20px;
 }

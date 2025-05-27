@@ -1,0 +1,34 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #83484B;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background: #333;
+  padding: 10px;
+  text-align: center;
+}
+#logo {
+  height: 50px;
+}
+main {
+  padding: 20px;
+}
+form input, form select, form button {
+  display: block;
+  margin: 10px 0;
+  padding: 10px;
+  width: 100%;
+  max-width: 400px;
+}
+button {
+  background: #eee;
+  color: #333;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  background: #ddd;
+}
